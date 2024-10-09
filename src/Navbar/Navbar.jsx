@@ -5,7 +5,7 @@ const Navlinks = [
   {
     id: '1',
     name: 'HOME',
-    link: '/#',
+    link: 'https://exerenergy-uugk.vercel.app/',
   },
   {
     id: '2',

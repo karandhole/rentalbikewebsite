@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import tempo from '../../src/Images/tempo.png';
 import scooty from '../../src/Images/scooty.png';
 import cmodel from '../../src/Images/cmodel.png';
+import bgcity from '../../src/Images/city1.jpg';
 
 const Hero = () => {
   const [activeButton, setActiveButton] = useState(null); // State to track active button
