@@ -44,7 +44,11 @@ const Hero = () => {
     <div>
         <div className="container mx-auto my-12 px-4 sm:px-6 md:px-8 lg:px-12">
   {/* Responsive background section */}
-  <div className='relative bg-[url("./src/Images/city1.jpg")] h-64 sm:h-80 md:h-96 w-full bg-cover bg-center'>
+
+  <div 
+  className='relative h-64 sm:h-80 md:h-96 w-full bg-cover bg-center' 
+  style={{ backgroundImage: `url(${bgcity})` }}
+>
     
     {/* Absolute positioning for text at the bottom-left */}
     <div className="absolute bottom-0 left-0 p-4 sm:p-8 md:p-12">
